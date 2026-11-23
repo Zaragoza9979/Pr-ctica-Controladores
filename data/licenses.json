@@ -1,0 +1,292 @@
+[
+    {
+        "id": 1,
+        "software": "Windows 11 Pro",
+        "version": "24H2",
+        "price": 149.99,
+        "key": "W11P-24H2-9981-XKLP-001A",
+        "featured": true,
+        "discount": 20,
+        "images": "./resources/windows-11.png"
+    },
+    {
+        "id": 2,
+        "software": "Windows 11 Pro",
+        "version": "23H2",
+        "price": 129.99,
+        "key": "W11P-23H2-4412-MNVC-002B",
+        "featured": false,
+        "discount": 35
+    },
+    {
+        "id": 3,
+        "software": "Windows 10 Pro",
+        "version": "22H2",
+        "price": 99.99,
+        "key": "W10P-22H2-7731-QWER-003C",
+        "featured": false,
+        "discount": 50
+    },
+    {
+        "id": 4,
+        "software": "Microsoft Office",
+        "version": "2024",
+        "price": 249.99,
+        "key": "OFFC-2024-8821-ASDF-004D",
+        "featured": true,
+        "discount": 15
+    },
+    {
+        "id": 5,
+        "software": "Microsoft Office",
+        "version": "2021",
+        "price": 179.99,
+        "key": "OFFC-2021-3319-ZXCV-005E",
+        "featured": false,
+        "discount": 40
+    },
+    {
+        "id": 6,
+        "software": "Microsoft Office",
+        "version": "2019",
+        "price": 119.99,
+        "key": "OFFC-2019-5502-TYUI-006F",
+        "featured": false,
+        "discount": 60
+    },
+    {
+        "id": 7,
+        "software": "Adobe Photoshop",
+        "version": "2026",
+        "price": 239.88,
+        "key": "ADPS-2026-1190-GHJK-007G",
+        "featured": true,
+        "discount": 10
+    },
+    {
+        "id": 8,
+        "software": "Adobe Photoshop",
+        "version": "2025",
+        "price": 199.88,
+        "key": "ADPS-2025-6643-BNMQ-008H",
+        "featured": false,
+        "discount": 25
+    },
+    {
+        "id": 9,
+        "software": "Adobe Photoshop",
+        "version": "2024",
+        "price": 159.88,
+        "key": "ADPS-2024-9901-PLOK-009I",
+        "featured": false,
+        "discount": 45
+    },
+    {
+        "id": 10,
+        "software": "JetBrains IntelliJ IDEA",
+        "version": "2026.1",
+        "price": 169.00,
+        "key": "JBIJ-2601-3214-IJNB-010J",
+        "featured": true,
+        "discount": 0
+    },
+    {
+        "id": 11,
+        "software": "JetBrains IntelliJ IDEA",
+        "version": "2025.3",
+        "price": 149.00,
+        "key": "JBIJ-2503-8765-UHYG-011K",
+        "featured": false,
+        "discount": 15
+    },
+    {
+        "id": 12,
+        "software": "JetBrains IntelliJ IDEA",
+        "version": "2024.2",
+        "price": 119.00,
+        "key": "JBIJ-2402-4321-TFVC-012L",
+        "featured": false,
+        "discount": 30
+    },
+    {
+        "id": 13,
+        "software": "AutoCAD",
+        "version": "2026",
+        "price": 1850.00,
+        "key": "ACAD-2026-9087-RDXE-013M",
+        "featured": true,
+        "discount": 5
+    },
+    {
+        "id": 14,
+        "software": "AutoCAD",
+        "version": "2025",
+        "price": 1600.00,
+        "key": "ACAD-2025-6543-SWZA-014N",
+        "featured": false,
+        "discount": 15
+    },
+    {
+        "id": 15,
+        "software": "AutoCAD",
+        "version": "2023",
+        "price": 1200.00,
+        "key": "ACAD-2023-2109-QAZX-015O",
+        "featured": false,
+        "discount": 35
+    },
+    {
+        "id": 16,
+        "software": "Kaspersky Total Security",
+        "version": "2026",
+        "price": 59.99,
+        "key": "KASP-2026-7890-WSXC-016P",
+        "featured": false,
+        "discount": 20
+    },
+    {
+        "id": 17,
+        "software": "Kaspersky Total Security",
+        "version": "2025",
+        "price": 44.99,
+        "key": "KASP-2025-1234-EDCV-017Q",
+        "featured": false,
+        "discount": 55
+    },
+    {
+        "id": 18,
+        "software": "VMware Workstation Pro",
+        "version": "17.6",
+        "price": 199.00,
+        "key": "VMWP-1760-5678-RFVB-018R",
+        "featured": true,
+        "discount": 0
+    },
+    {
+        "id": 19,
+        "software": "VMware Workstation Pro",
+        "version": "16.2",
+        "price": 139.00,
+        "key": "VMWP-1620-9012-TGBN-019S",
+        "featured": false,
+        "discount": 40
+    },
+    {
+        "id": 20,
+        "software": "FL Studio Producer",
+        "version": "21.2",
+        "price": 199.00,
+        "key": "FLSP-2120-3456-YHNM-020T",
+        "featured": true,
+        "discount": 10
+    },
+    {
+        "id": 21,
+        "software": "FL Studio Producer",
+        "version": "20.9",
+        "price": 159.00,
+        "key": "FLSP-2090-7891-UJMI-021U",
+        "featured": false,
+        "discount": 25
+    },
+    {
+        "id": 22,
+        "software": "Adobe Premiere Pro",
+        "version": "2026",
+        "price": 239.88,
+        "key": "ADPR-2026-2345-IKOL-022V",
+        "featured": false,
+        "discount": 10
+    },
+    {
+        "id": 23,
+        "software": "Adobe Premiere Pro",
+        "version": "2024",
+        "price": 179.88,
+        "key": "ADPR-2024-6789-OLPP-023W",
+        "featured": false,
+        "discount": 30
+    },
+    {
+        "id": 24,
+        "software": "NordVPN",
+        "version": "2026",
+        "price": 89.00,
+        "key": "NVPN-2026-0123-PAQS-024X",
+        "featured": true,
+        "discount": 65
+    },
+    {
+        "id": 25,
+        "software": "NordVPN",
+        "version": "2025",
+        "price": 69.00,
+        "key": "NVPN-2025-4567-ZSEW-025Y",
+        "featured": false,
+        "discount": 70
+    },
+    {
+        "id": 26,
+        "software": "Sublime Text",
+        "version": "4.0",
+        "price": 99.00,
+        "key": "SUBL-0400-8901-XDRT-026Z",
+        "featured": false,
+        "discount": 0
+    },
+    {
+        "id": 27,
+        "software": "Sublime Text",
+        "version": "3.2",
+        "price": 69.00,
+        "key": "SUBL-0320-2346-CFGY-027A",
+        "featured": false,
+        "discount": 20
+    },
+    {
+        "id": 28,
+        "software": "WinRAR",
+        "version": "7.0",
+        "price": 29.95,
+        "key": "WRAR-0700-6780-VGHU-028B",
+        "featured": false,
+        "discount": 10
+    },
+    {
+        "id": 29,
+        "software": "WinRAR",
+        "version": "6.24",
+        "price": 19.95,
+        "key": "WRAR-0624-1122-BHJI-029C",
+        "featured": false,
+        "discount": 25
+    },
+    {
+        "id": 30,
+        "software": "DaVinci Resolve Studio",
+        "version": "19.0",
+        "price": 295.00,
+        "key": "DVRS-1900-3344-NJKO-030D",
+        "featured": true,
+        "discount": 0
+    },
+    {
+        "id": 31,
+        "software": "DaVinci Resolve Studio",
+        "version": "18.6",
+        "price": 245.00,
+        "key": "DVRS-1860-5566-MKLP-031E",
+        "featured": false,
+        "discount": 15
+    },
+    {
+        "id": 32,
+        "software": "Bitdefender Total Security",
+        "version": "2026",
+        "price": 49.99,
+        "key": "BITD-2026-7788-QWER-032F",
+        "featured": false,
+        "discount": 45
+    }
+    
+]

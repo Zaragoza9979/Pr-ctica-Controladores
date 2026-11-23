@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <title>LicenseStore| Tienda de Licencias Digitales</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="container navbar-content">
+            <h1>🔑 LicenseStore<span>Store</span></h1>
+            <nav>
+                <a href="#featured">Destacados</a>
+                <a href="#offers">Ofertas</a>
+                <a href="#latest">Últimas Versiones</a>
+                <a href="#catalog">Catálogo</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <section id="featured" class="store-section">
+            <h2>⭐ Licencias Destacadas</h2>
+            <div id="featured-container" class="cards-grid"></div>
+        </section>
+
+        <section id="catalog" class="store-section">
+            <h2>📦 Explorar Catálogo (Aleatorio)</h2>
+            <div id="all-container" class="cards-grid"></div>
+        </section>
+
+        <section id="offers" class="store-section">
+            <h2>🔥 Mejores Ofertas</h2>
+            <div id="offers-container" class="cards-grid"></div>
+        </section>
+
+        <section id="latest" class="store-section">
+            <h2>🚀 Últimas Versiones por Software</h2>
+            <div id="latest-container" class="cards-grid"></div>
+        </section>
+    </main>
+
+    <!-- Ventanita (Modal) para mostrar la Key al comprar -->
+    <div id="key-modal" class="modal hidden">
+        <div class="modal-content">
+            <span id="close-modal" class="close-btn">&times;</span>
+            <h3>¡Compra realizada con éxito!</h3>
+            <p id="modal-software-name"></p>
+            <div class="key-box">
+                <code id="modal-license-key"></code>
+                <button id="copy-key-btn" class="btn-secondary">Copiar</button>
+            </div>
+            <small>Guarda esta clave en un lugar seguro para activar tu producto.</small>
+        </div>
+    </div>
+
+    <script type="module" src="./scripts/app.js"></script>
+</body>
+
+</html>
